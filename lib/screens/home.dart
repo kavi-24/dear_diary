@@ -199,7 +199,7 @@ class Item extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(vertical: item is int ? 5.0 : 7.0),
       child: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           border: Border.symmetric(
             horizontal: BorderSide(color: Colors.white),
           ),
